@@ -1,0 +1,37 @@
+.standards{
+    width: 100%;
+    height: auto;
+    margin: 20% 0px;
+}
+.standard__img{
+    width: 100%;
+    height: 700px;
+    border-radius: 12px;
+    background: url("../../assets/1_standards-leadership.jpg") no-repeat center/cover;
+}
+.standard__text h1{
+    font-weight: 100;
+}
+.standard__text h1 svg{
+    transform: translateY(8px);
+    font-size: 35px;
+    font-weight: 100;
+    color: blue;
+}
+.standard__text p{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+@media screen and (max-width: 416px){
+    .standard__img{
+        height: 300px;
+    }
+    .standard__text h1{
+        font-size: 25px;
+    }
+    .standard__text p{
+        font-size: 17px;
+    }
+}

@@ -1,0 +1,148 @@
+.about__container{
+    margin-top: 20%;
+}
+.about__wrapper{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.about__image__one{
+    flex: 1;
+    width: 100%;
+    height: 500px;
+    background: url("../../assets/oi_industry_03_lr_rgb.webp") no-repeat center/cover;
+}
+.about__image__two{
+    flex: 1;
+    width: 100%;
+    height: 500px;
+    background: url("../../assets/Nokia-training-man-studying_1.webp") no-repeat center/cover;
+}
+.about__text__one{
+    flex: 1;
+}
+.about__text__one h1{
+    margin: 70px 40px;
+    font-weight: 400;
+    color: var(--bg-dark);
+}
+.about__text__one h4{
+    margin: -20px 40px;
+    font-weight: 400;
+    color: gray;
+}
+.about__text__two{
+    flex: 1;
+}
+.about__text__two h3{
+    margin: 40px 40px;
+    font-weight: 400;
+    color: var(--bg-py);
+}
+.about__text__two h1{
+    margin: -20px 40px;
+    font-weight: 400;
+    color: var(--bg-dark);
+}
+.about__text__two h4{
+    margin: 40px 40px;
+    font-weight: 400;
+    color: gray;
+}
+
+.about__button{
+    margin: 50px 40px;
+    padding: 15px 50px;
+    color: #fff;
+    background: blue;
+    border: none;
+    font-size: 15px;
+    border-radius: 6px;
+}
+.about__botton{
+    margin: 10px 40px;
+    padding: 15px 50px;
+    color: #fff;
+    background: blue;
+    border: none;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+
+
+.about__doctors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 50px;
+}
+.about__card{
+    width: 350px;
+    height: 600px;
+    border: 1px solid var(--bg-py);
+}
+.about__doctor__img img{
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+}
+.about__doctor__name{
+    width: 350px;
+    height: 70px;
+    margin-top: -4px;
+    background: var(--bg-py);
+}
+.about__doctor__name h2{
+    text-align: center;
+    color: #fff;
+    transform: translateY(15px);
+}
+.about__doctor__routine h3{
+    text-align: center;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+
+
+@media screen and (max-width:990px) {
+    .about__wrapper{
+        margin-top: 20px;
+    }
+    .about__image__one{
+        flex: auto;
+        width: 100%;
+        height: 400px;
+    }
+    .about__image__two{
+        flex: auto;
+        width: 100%;
+    }
+    .order-1{
+        order: 1;
+    }
+    .order-2{
+        order: 2;
+    }
+}
+@media screen and (max-width:416px) {
+    .about__us{
+        margin-top: 100px;
+    }
+    .about__image__one{
+        width: 100%;
+        height: 350px;
+        margin-top: 100px;
+    }
+    .about__image__two{
+        width: 100%;
+        height: 350px;
+    }
+    
+}

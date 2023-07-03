@@ -1,0 +1,27 @@
+.talk{
+    width: 100%;
+    height: 300px;
+    background: url("../../assets/teal-blue-m.jpg") no-repeat center/cover;
+}
+.talk__h1{
+    padding: 80px 20px;
+    color: #fff;
+}
+.talk__button{
+    width: 130px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background: blue;
+    color: #fff;
+    margin: -30% 20px;
+}
+
+@media screen and (max-width: 416px){
+    .talk__h1{
+        text-align: center;
+    }
+    .talk__button{
+        margin: -50px 70px;
+    }
+}

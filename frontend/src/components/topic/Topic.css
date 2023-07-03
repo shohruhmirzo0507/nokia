@@ -1,0 +1,40 @@
+.topic{
+    height: 120%;
+}
+.topic h1{
+    margin: 10px 20px;
+}
+
+.topic__products{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.topic__pro{
+    width: 20%;
+    height: auto;
+    margin: 20px 30px;
+}
+.topic__pro img{
+    width: 100%;
+    border-radius: 8px;
+}
+.topic__pro h3 span svg{
+    color: blue;
+}
+
+@media screen and (max-width: 416px){
+    .topic{
+        margin: 90px 0px;
+    }
+    .topic__products{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+   
+    .topic__pro{
+        width: 90%;
+    }
+}

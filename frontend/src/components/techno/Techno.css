@@ -1,0 +1,51 @@
+.technos{
+    margin-top: 30%;
+    background: url("../../assets/purple-blue-d.jpg") no-repeat center/cover;
+}
+.technos h1{
+    width: 60%;
+    padding: 20px 20px;
+    color: #fff;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.techno__products{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.techno__pro{
+    width: 380px;
+    height: auto;
+    margin: 20px 30px;
+}
+.techno__pro img{
+    width: 100%;
+    border-radius: 8px;
+}
+.techno__pro h3{
+    font-size: 25px;
+    color: #fff;
+}
+
+
+@media screen and (max-width: 416px){
+    .techno{
+        margin: 90px 0px;
+    }
+    .technos h1{
+        font-size: 20px;
+        margin: 40px 80px;
+    }
+    .techno__products{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+   
+    .techno__pro{
+        width: 90%;
+    }
+}

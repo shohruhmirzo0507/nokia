@@ -1,0 +1,24 @@
+.degital{
+    width: 60%;
+    height: 400px;
+    margin: 20px 25%;
+}
+.degital h1{
+    font-weight: 100;
+    color: #424542;
+}
+.degital p{
+    width: 78%;
+    font-weight: 100;
+    color: #424542;
+}
+
+@media screen and (max-width: 416px){
+    .degital h1{
+        font-size: 20px;
+    }
+    .degital p{
+        width: 100%;
+        font-size: 15px;
+    }
+}

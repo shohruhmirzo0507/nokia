@@ -1,0 +1,39 @@
+.enterpresses{
+    width: 100%;
+    height: auto;
+}
+.enter{
+    width: 100%;
+    height: 400px;
+    background: url("../../assets/orange-yellow-m.jpg") no-repeat center/cover;
+    display: flex;
+}
+.enter__text{
+    width: 45%;
+}
+.enter__text h1{
+    width: 50%;
+    margin: 25% 50px;
+    font-size: 35px;
+    color: #fff;
+    font-weight: 100;
+}
+.enter__img{
+    width: 50%;
+    margin-left: 55px;
+}
+.enter__img img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 416px){
+    .enter__text{
+        display: none;
+    }
+    .enter__img{
+        width: 100%;
+    }
+}
+
+

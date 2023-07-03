@@ -1,0 +1,50 @@
+.explores{
+    width: 100%;
+    height: auto;
+    margin: 50% 0px;
+}
+.explore{
+    width: 100%;
+    height: 550px;
+    background: url("../../assets/blue-green-d\ \(1\).jpg") no-repeat center/cover;
+}
+.explore h1{
+    font-size: 40px;
+    margin-top: -900px;
+    color: #fff;
+    padding: 100px 50px;
+}
+.explore__products{
+    display: flex;
+    overflow: auto;
+}
+.explore__products::-webkit-scrollbar{
+    display: none;
+}
+
+.explore__product{
+    min-width: 350px;
+    height: 400px;
+    margin-top: 20%;
+    margin: 5% 20px; 
+}
+.explore__product img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 416px){
+    .explore{
+        height: 580px;
+        margin-top: 200%;
+    }
+    .explore__products{
+        margin-top: -50px;
+    }
+    .explore__product{
+        height: 380px;
+    }
+}
+
+
